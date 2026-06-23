@@ -4,6 +4,10 @@ A machine learning regression project for predicting solar power generation usin
 
 This project analyzes historical solar generation data, performs preprocessing and feature engineering, trains multiple regression models, tunes hyperparameters, and compares model performance using standard regression metrics.
 
+## Live App
+
+Try the deployed Streamlit application here: [Solar Power Generation Prediction](https://solar-power-generation-prediction.streamlit.app/)
+
 ## Project Overview
 
 Solar power output depends heavily on environmental conditions such as sunlight timing, temperature, wind, humidity, sky cover, visibility, and atmospheric pressure. This project uses these weather-related features to predict the amount of power generated.
@@ -13,7 +17,7 @@ The main goal is to build and compare machine learning models that can estimate 
 ## Repository Contents
 
 ```text
-Solar-Power-Generation-Predicition/
+Solar-Power-Generation-Prediction/
 |
 |-- Modelbuildingfi (1).ipynb
 |-- solarpowergeneration.csv
@@ -136,6 +140,7 @@ The best-performing model in this project was **CatBoost Regressor**, with an R2
 ## Tech Stack
 
 - Python
+- Streamlit
 - Pandas
 - NumPy
 - Matplotlib
@@ -150,14 +155,14 @@ The best-performing model in this project was **CatBoost Regressor**, with an R2
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/roshaankandimalla/Solar-Power-Generation-Predicition.git
-cd Solar-Power-Generation-Predicition
+git clone https://github.com/roshaankandimalla/Solar-Power-Generation-Prediction.git
+cd Solar-Power-Generation-Prediction
 ```
 
 2. Install the required dependencies:
 
 ```bash
-pip install pandas numpy matplotlib seaborn scikit-learn lightgbm catboost notebook
+pip install pandas numpy matplotlib seaborn scikit-learn lightgbm catboost streamlit notebook
 ```
 
 3. Start Jupyter Notebook:
@@ -174,14 +179,7 @@ Modelbuildingfi (1).ipynb
 
 ## Future Improvements
 
-- Rename the repository from `Predicition` to `Prediction` for clarity
-- Add a `requirements.txt` file
-- Save the best model using `joblib` or `pickle`
-- Build a Streamlit web app for solar power prediction
 - Add SHAP-based model explainability
-- Add cross-validation results for all final models
-- Add feature importance plots to the README
-- Deploy the best model as an API
 
 ## Author
 
