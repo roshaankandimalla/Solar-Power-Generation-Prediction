@@ -1,6 +1,6 @@
-streamlit
+streamlit==1.57.0
+scikit-learn==1.5.2
+catboost==1.2.10
+joblib==1.5.3
 pandas
 numpy
-lightgbm
-scikit-learn
-joblib
